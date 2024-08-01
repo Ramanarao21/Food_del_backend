@@ -10,7 +10,7 @@ import orderRouter from "./routes/orderRoute.js";
 // api config 
 
 const app = express()
-const port = 4004 
+const port = process.env.PORT || 4004 ;
 
 //middleware 
 
